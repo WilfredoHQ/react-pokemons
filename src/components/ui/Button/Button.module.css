@@ -1,0 +1,19 @@
+.root {
+  border-radius: 0.25rem;
+  padding: 0.625rem 1.25rem;
+  font-weight: 600;
+  color: #fff;
+  transition: all 0.2s;
+  background-color: #0075ff;
+  border: 1px solid transparent;
+}
+.root:hover {
+  filter: saturate(0.6);
+}
+.root:active {
+  transform: scale(0.98);
+}
+.root:disabled {
+  pointer-events: none;
+  filter: opacity(0.2);
+}
