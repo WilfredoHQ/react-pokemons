@@ -1,0 +1,6 @@
+export { ReactComponent as AddIcon } from "./add.svg"
+export { ReactComponent as CloseIcon } from "./close.svg"
+export { ReactComponent as PenIcon } from "./pen.svg"
+export { ReactComponent as PlusIcon } from "./plus.svg"
+export { ReactComponent as SearchIcon } from "./search.svg"
+export { ReactComponent as TrashIcon } from "./trash.svg"
