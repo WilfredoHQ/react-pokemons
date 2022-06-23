@@ -1,0 +1,43 @@
+.root {
+  overflow-x: auto;
+}
+
+.table {
+  width: 100%;
+  border: 1px solid #ddd;
+  border-spacing: 0;
+}
+
+.table th,
+.table td {
+  border: 1px solid #ddd;
+  padding: 0.625rem;
+  text-align: center;
+}
+
+.image {
+  width: 5rem;
+  margin: 0 auto;
+}
+
+.update,
+.delete {
+  border: none;
+  background-color: transparent;
+}
+
+.update {
+  margin-right: 1rem;
+}
+
+.update:hover {
+  color: #0075ff;
+}
+
+.delete:hover {
+  color: tomato;
+}
+
+.loading {
+  text-align: center;
+}

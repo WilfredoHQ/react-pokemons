@@ -1,0 +1,38 @@
+.root {
+  padding: 1.5rem;
+  border: 2px solid #ddd;
+}
+
+.title {
+  text-align: center;
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.form {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.action {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.35rem 1.25rem;
+}
+
+@media (min-width: 640px) {
+  .form {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .actions {
+    grid-column: span 3;
+  }
+}

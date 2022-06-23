@@ -1,0 +1,25 @@
+.root {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: flex-end;
+}
+.root input {
+  padding-left: 2.5rem;
+}
+.search {
+  position: relative;
+}
+.icon {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 0.625rem;
+  bottom: 0.5rem;
+}
+.action {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.35rem 1.25rem;
+}
